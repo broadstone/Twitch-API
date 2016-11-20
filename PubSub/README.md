@@ -14,7 +14,7 @@ These JSON messages differ depending on message/command type but are typically o
 ```json
 {
   "type": "<type_string>",
-  "data": "<json blob>",
+  "data": "<json blob>"
 }
 ```
 
@@ -149,14 +149,14 @@ Once a client has established a connection, they can `LISTEN` on topics they car
   "nonce": "44h1k13746815ab1r2",
   "data": {
     "topics": ["whispers.test_account","video-playback.lirik"],
-    "auth_token": "...",
+    "auth_token": "..."
   }
 }
 // Response from server to client
 {
   "type": "RESPONSE",
   "nonce": "44h1k13746815ab1r2",
-  "error": "",
+  "error": ""
 }
 ```
 

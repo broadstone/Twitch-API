@@ -14,7 +14,7 @@ In full, you would send a request that looks like the following:
   "nonce": "...",
   "data": {
     "topics": ["whispers.XXXXXXXX"],
-    "auth_token": "...",
+    "auth_token": "..."
   }
 }
 ```
